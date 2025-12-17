@@ -50,12 +50,12 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexusRepo</id>
-		    <url>http://13.234.17.162:8081/repository/mani-release/</url>
+		    <url>http://13.234.17.162:8081/repository/mani-snap/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexusRepo</id>
-		    <url>http://13.234.17.162:8081/repository/mani-snap/</url>
+		    <url>http://13.234.17.162:8081/repository/mani-release/</url>
 		</repository>
   	</distributionManagement>
 	
