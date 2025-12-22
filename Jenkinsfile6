@@ -35,10 +35,10 @@ pipeline{
                             type: 'war'
                        ]
                   ], 
-                  credentialsId: 'mani', 
+                  credentialsId: 'nexus3', 
                   groupId: 'in.javahome', 
-                  nexusUrl: '172.31.45.49:8081', 
-                  nexusVersion: 'nexus-3.87.1-01', 
+                  nexusUrl: '172.31.35.210:8081', 
+                  nexusVersion: 'nexus3', 
                   protocol: 'http', 
                   repository: 'sample-releases', 
                   version: '8.2.0'  
