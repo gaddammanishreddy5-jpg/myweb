@@ -35,7 +35,7 @@ pipeline{
                             type: 'war'
                        ]
                   ], 
-                  credentialsId: 'nexus-3.87.1-01', 
+                  credentialsId: 'mani', 
                   groupId: 'in.javahome', 
                   nexusUrl: '172.31.45.49:8081', 
                   nexusVersion: 'nexus-3.87.1-01', 
